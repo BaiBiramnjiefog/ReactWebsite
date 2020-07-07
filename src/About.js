@@ -1,10 +1,36 @@
 import React from 'react'
 
+import { Button, Card } from 'react-bootstrap'
+import './index.css'
+import './components/videocover'
+import VideoBackground from './components/videocover'
+
+
 
 export const About = () => (
-  <div>
-    <h2>History</h2>
-    <p>In the 15th century, Europeans started to explore the river and coast area – the River Gambia soon became a busy trading zone for gold and slaves. During the colonial period, several European powers contested ownership of the river with Britain eventually prevailing, and The Gambia became a British Protectorate in the early 1820s, surrounded by French-ruled Senegal.</p>
-    <p>The drive for Gambian independence gained momentum after World War 2 and in 1961 the first universal franchise election was held, with Dawda Jawara winning. The Gambia became the last of Britain’s West African colonies to attain full independence, mainly because it was so small and poor that doubts surfaced about its economic viability. A merger with Senegal was suggested but rejected when the issue of how to share power could not be resolved. Eventually, in 1965 The Gambia achieved independence and Jawara became the country’s first Prime Minister before assuming the role of President when the country became a republic in 1970 as a member of the Commonwealth.</p>
-    </div>
+  <container class="mighty">
+  <container class="about">
+    
+      <VideoBackground>
+
+      </VideoBackground>
+  
+ 
+ 
+     
+     <Card style={{ width: '20rem',position:'absolute',color:'white',background:'black' }}>
+  <Card.Body>
+    <Card.Title>The Gambia</Card.Title>
+    <Card.Subtitle className="mb-2 text-muted">The Smiling Coast Of Africa</Card.Subtitle>
+    <Card.Text>
+    The Gambia is one of Africa's smallest countries
+    </Card.Text>
+    <Card.Link href="https://www.youtube.com/watch?v=xQYScZzbd1E">Watch A Brief Video</Card.Link>
+    <Card.Link href="./about.js">Learn More</Card.Link>
+  </Card.Body>
+</Card>
+     </container>
+     </container>
+     
 )
+export default Button;

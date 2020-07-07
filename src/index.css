@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+ 
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.btn{
+
+  width:5%;
+  padding:10px;
+  float: right;
+ 
+}
+
+.about{
+  background-color: black;
+  background: cover;
+  background: url(${Gambia}) no-repeat fixed bottom;
+
+  
+ 
+}
+
+.visit{
+  background-color: black;
+  background: cover;
+}
+
+
+
+.first{
+  text-align: center;
+  color:white;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-family: Montserrat,sans-serif;
+  font-weight:900;
+  line-height: 130px;
+  color: #f81f01;
+  
+}
+.mighty{
+  background-color: black;
+  background: fixed;
+}
+
+.tourism{
+  background-image: url(../src/dist/Africa.jpg);
+ 
+  background: cover;
+
+}
+
+.box{
+  background-image: url(../src/dist/Africa.jpg);
 }
