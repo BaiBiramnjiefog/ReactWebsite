@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { Button, Card } from 'react-bootstrap'
+import { Button, Card, Container } from 'react-bootstrap'
 import './index.css'
-import './components/videocover'
+
 import VideoBackground from './components/videocover'
 
 
@@ -17,7 +17,7 @@ export const About = () => (
   
  
  
-     
+     <Container class="test">
      <Card style={{ width: '20rem',position:'absolute',color:'white',background:'black' }}>
   <Card.Body>
     <Card.Title>The Gambia</Card.Title>
@@ -29,6 +29,7 @@ export const About = () => (
     <Card.Link href="./about.js">Learn More</Card.Link>
   </Card.Body>
 </Card>
+</Container>
      </container>
      </container>
      

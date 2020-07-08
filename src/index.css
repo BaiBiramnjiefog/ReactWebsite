@@ -34,6 +34,7 @@ code {
 .visit{
   background-color: black;
   background: cover;
+  
 }
 
 
@@ -54,13 +55,3 @@ code {
   background: fixed;
 }
 
-.tourism{
-  background-image: url(../src/dist/Africa.jpg);
- 
-  background: cover;
-
-}
-
-.box{
-  background-image: url(../src/dist/Africa.jpg);
-}
